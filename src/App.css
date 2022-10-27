@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+#nav-main{
+  border-radius: 15px;
+  background-color: #081a89;
+}
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,6 +33,19 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.container-navi{
+  padding: 15px;
+  position: absolute;
+  width: 100%;
+}
+
+
+
+.img_logo{
+  width: 160px;
+  height: 60px;
 }
 
 @keyframes App-logo-spin {
