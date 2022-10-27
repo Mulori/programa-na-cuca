@@ -3,11 +3,25 @@
 }
 
 #nav-main{
-  border-radius: 15px;
   background-color: #081a89;
 }
 
+.class-style{
+  color: #FFF;  
+}
 
+.navbar-toggler-icon{
+  background-image: none !important;
+  border: none;
+}
+
+.nav-link{
+  color: #FFF;
+}
+
+.nav-link :hover{
+  color: #FFF !important ;
+}
 
 .App-logo {
   height: 40vmin;
@@ -36,7 +50,6 @@
 }
 
 .container-navi{
-  padding: 15px;
   position: absolute;
   width: 100%;
 }

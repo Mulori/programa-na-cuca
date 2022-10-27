@@ -4,17 +4,19 @@ import Logo from './image/logo_small.png'
 function App() {
   return (
     <div className='container-navi' >
-      <nav className="navbar navbar-expand-lg navbar-light bg-light" id="nav-main"  >
+      <nav className="navbar navbar-expand-lg" id="nav-main"  >
       <img src={Logo} className="img_logo" />
 
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="buttonToggle">
-        <span className="navbar-toggler-icon"></span>
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+        <span className="navbar-toggler-icon">
+          <i class="fa fa-bars class-style" aria-hidden="true"></i>
+        </span>
       </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
-            <a className="nav-link" href="#">Principal <span className="sr-only">(current)</span></a>
+            <a className="nav-link" href="#">Principal <span className="sr-only"></span></a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">Noticias</a>
